@@ -1,0 +1,22 @@
+Bad result::Login information is incorrect !
+Good result!
+Bad result::Login information is incorrect!
+Bad result::Account has been locked!
+Bad result::Login information is incorrect!
+Bad result::Please enter your username!
+Bad result::Bad result::Login information is incorrect!
+Bad result::Please enter your username!
+Bad result::Account has been locked!
+Bad result::Login information is incorrect!
+Bad result::Login information is incorrect!
+Bad result::Login information is incorrect!
+Bad result::Login information is incorrect!
+Bad result::Please enter your username!
+Good result!
+Bad result::Login information is incorrect!
+Bad result::Please enter your username!
+Bad result::Login information is incorrect!
+Bad result::Login information is incorrect!
+Bad result::Login information is incorrect!
+Bad result::Please enter your username!
+Bad result::Login information is incorrect!
