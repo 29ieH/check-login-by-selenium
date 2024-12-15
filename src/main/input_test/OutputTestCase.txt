@@ -1,22 +1,22 @@
-Bad result::Login information is incorrect !
-Good result!
-Bad result::Login information is incorrect!
-Bad result::Account has been locked!
-Bad result::Login information is incorrect!
-Bad result::Please enter your username!
-Bad result::Bad result::Login information is incorrect!
-Bad result::Please enter your username!
-Bad result::Account has been locked!
-Bad result::Login information is incorrect!
-Bad result::Login information is incorrect!
-Bad result::Login information is incorrect!
-Bad result::Login information is incorrect!
-Bad result::Please enter your username!
-Good result!
-Bad result::Login information is incorrect!
-Bad result::Please enter your username!
-Bad result::Login information is incorrect!
-Bad result::Login information is incorrect!
-Bad result::Login information is incorrect!
-Bad result::Please enter your username!
-Bad result::Login information is incorrect!
+Mã đăng nhập hoặc mật khẩu không đúng.
+Đăng nhập thành công.
+Mã đăng nhập hoặc mật khẩu không đúng.
+Tài khoản đã bị khóa do sinh viên Thôi học.
+Mã đăng nhập hoặc mật khẩu không đúng.
+Vui lòng nhập hoặc chọn thông tin cho Tên đăng nhập.
+Mã đăng nhập hoặc mật khẩu không đúng.
+Vui lòng nhập hoặc chọn thông tin cho Tên đăng nhập.
+Tài khoản đã bị khóa do sinh viên Thôi học.
+Mã đăng nhập hoặc mật khẩu không đúng.
+Mã đăng nhập hoặc mật khẩu không đúng.
+Mã đăng nhập hoặc mật khẩu không đúng.
+Mã đăng nhập hoặc mật khẩu không đúng.
+Vui lòng nhập hoặc chọn thông tin cho Tên đăng nhập.
+Đăng nhập thành công.
+Mã đăng nhập hoặc mật khẩu không đúng.
+Vui lòng nhập hoặc chọn thông tin cho Tên đăng nhập.
+Mã đăng nhập hoặc mật khẩu không đúng.
+Mã đăng nhập hoặc mật khẩu không đúng.
+Mã đăng nhập hoặc mật khẩu không đúng.
+Vui lòng nhập hoặc chọn thông tin cho Tên đăng nhập.
+Mã đăng nhập hoặc mật khẩu không đúng.

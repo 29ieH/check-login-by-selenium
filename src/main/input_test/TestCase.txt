@@ -1,0 +1,13 @@
+- 5 Case cho chức năng Login
+ * Nhập thiếu thông tin
+  + TH1: Khi nhập thiếu thông tin login, để trống phần username -> Hiển thị lỗi thiếu thông tin username.
+  + TH2: Khi nhập thiếu thông tin login, để trống phần password -> Hiển thị lỗi tài khoản không hợp lệ.
+ * Nhập đầy đủ thông tin
+  + TH3: Khi nhập đầy đủ thông tin, tài khoản hoặc mật khẩu không hợp lệ -> Hiển thị lỗi tài khoản không hợp lệ.
+  + TH4: Khi nhập đầy đủ thông tin, tài khoản đã bị khoá -> Hiển thị lỗi tài khoản bị khoá hoặc thôi học.
+  + TH5: Nhập đầy đủ thông tin, tài khoản và mật khẩu hợp lệ -> Đăng nhập thành công.
+
+  -> 3 Case chính
+   - Thiếu thông tin
+   - Tài khoản bị khoá
+   - Đăng nhập thành công

@@ -16,6 +16,7 @@ public class test {
         try {
             System.setProperty("webdriver.chrome.driver", "D:\\selenium\\chromedriver-win64\\chromedriver.exe");
             driver = new ChromeDriver();
+            JavascriptExecutor js = (JavascriptExecutor) driver;
             String inputData = "src/main/input_test/InputTestCase.txt";
             String outputData = "src/main/input_test/OutputTestCase.txt";
             String resultData = "src/main/result.txt";
@@ -53,20 +54,27 @@ public class test {
                     buttonLogin.click();
                     String expectTitle = "Hệ thống quản lý đào tạo :: Quản lý đào tạo - TRƯỜNG ĐẠI HỌC SƯ PHẠM";
                     String resultTitleTest = driver.getTitle();
-                    System.out.println(driver.getTitle());
-                    JavascriptExecutor js = (JavascriptExecutor) driver;
-                    js.executeScript("alert('" + lineOutput + "')");
+                    String textAlert = "";
+                    if (!expectTitle.equals(resultTitleTest)) {
+                        resultWrite.write("Username:: "
+                                +validToUndefined(userName) + " - password:: "
+                                + validToUndefined(password) + " -> Test case Failed!\n");
+                        System.out.println("Login test failed!");
+                        WebElement errorContainer = driver.findElement(By.className("msg_error"));
+                        WebElement errorMessage = errorContainer.findElement(By.xpath(".//li"));
+                        textAlert = errorMessage.getText().equals(lineOutput) ? errorMessage.getText() : lineOutput;
+                    } else {
+                        textAlert =  lineOutput;
+                        resultWrite.write("Username:: "
+                                +validToUndefined(userName)
+                                + " - password:: " + validToUndefined(password)
+                                + " -> Test case Passed!\n");
+                        Thread.sleep(500);
+                    }
+                    js.executeScript("alert('" + textAlert + "')");
                     Thread.sleep(1000);
                     Alert alert = driver.switchTo().alert();
                     alert.accept();
-                    if (!expectTitle.equals(resultTitleTest)) {
-                        resultWrite.write("Username:: "+validToUndefined(userName) + " - password:: " + validToUndefined(password) + "-> Failed!\n");
-                        System.out.println("Login test failed!");
-                    } else {
-                        resultWrite.write("Username:: "+validToUndefined(userName) + " - password:: " + validToUndefined(password) + "-> Passed!\n");
-                        Thread.sleep(500);
-                        driver.get("https://qlht.ued.udn.vn/login");
-                    }
                 }
             }
         } catch (Exception e) {
